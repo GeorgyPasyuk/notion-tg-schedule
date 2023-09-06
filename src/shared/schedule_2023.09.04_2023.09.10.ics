@@ -1,0 +1,291 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ZContent//ZapCalLib 1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Moscow
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART:20230904T140000
+DTEND:20230904T153000
+UID:51a0f4e5d7677a89bc9fb7f6723c7ef6-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Отраслевые особенности анализа и трансформации бизнес-процессов
+LOCATION:Киб1_2/201/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Отраслевые особенности анализа и трансформации бизнес-процессов
+ \nВакансия Д. \nОБвЦЭ21-1\; ОБвЦЭ21-2 \nЛекции \n:  \n<> \nКиб1_2/201/ул. 
+ Кибальчича\, 1\, строение 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230904T154000
+DTEND:20230904T171000
+UID:0c81d47d70a9e935488ab03719a876f3-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Корпоративные финансы
+LOCATION:Киб1_2/401/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Корпоративные финансы\nБорисова О.В. \nОБвЦЭ21-1\; ОБвЦЭ21-2 \n
+ Лекции \n:  \n<> \nКиб1_2/401/ул. Кибальчича\, 1\, строение 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230905T101000
+DTEND:20230905T114000
+UID:b45e20c6c89877879a3126762234d849-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Финансовые рынки
+LOCATION:Киб1_2/701/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Финансовые рынки\nМакеев А.В. \nОБвЦЭ21-1\; ОБвЦЭ21-2 \nЛекции 
+ \n:  \n<> \nКиб1_2/701/ул. Кибальчича\, 1\, строение 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230905T115000
+DTEND:20230905T132000
+UID:c3d10fc500cf73c9cd8f7051f329b19e-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Экономическая безопасность и риски
+LOCATION:Киб1_1/42/ул. Кибальчича\, 1\, строение 1
+DESCRIPTION:Экономическая безопасность и риски\nСкрипник О.Б. \nОБвЦЭ21-1 \
+ nПрактические (семинарские) занятия \n:  \n<> \nКиб1_1/42/ул. Кибальчича\,
+  1\, строение 1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230905T140000
+DTEND:20230905T153000
+UID:539e770601749dfa9cc021cffefee511-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Отраслевые особенности анализа и трансформации бизнес-процессов
+LOCATION:Киб1_2/704/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Отраслевые особенности анализа и трансформации бизнес-процессов
+ \nВакансия Д. \nОБвЦЭ21-1 \nПрактические (семинарские) занятия \n:  \n<> \
+ nКиб1_2/704/ул. Кибальчича\, 1\, строение 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230905T154000
+DTEND:20230905T171000
+UID:b831226bd1b91b3ec6c749daae15ff69-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Иностранный язык в профессиональной сфере
+LOCATION:Киб1_1/31/ул. Кибальчича\, 1\, строение 1
+DESCRIPTION:Иностранный язык в профессиональной сфере\nМухортова Е.А. \nОБв
+ ЦЭ21-1\; ОБвЦЭ21-2 \nПрактические (семинарские) занятия \n:  \n<> \nКиб1_1
+ /31/ул. Кибальчича\, 1\, строение 1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230905T154000
+DTEND:20230905T171000
+UID:3fac0dcf05b4bb30d027df9b71fc4281-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Иностранный язык в профессиональной сфере
+LOCATION:Киб1_2/1104/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Иностранный язык в профессиональной сфере\nБерберова Л.Б. \nОБв
+ ЦЭ21-1\; ОБвЦЭ21-2 \nПрактические (семинарские) занятия \n:  \n<> \nКиб1_2
+ /1104/ул. Кибальчича\, 1\, строение 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230905T154000
+DTEND:20230905T171000
+UID:f3450ec22a1edde553b3438d1f297ce4-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Иностранный язык в профессиональной сфере
+LOCATION:Киб1_2/602/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Иностранный язык в профессиональной сфере\nСанакоева З.Г. \nОБв
+ ЦЭ21-1\; ОБвЦЭ21-2 \nПрактические (семинарские) занятия \n:  \n<> \nКиб1_2
+ /602/ул. Кибальчича\, 1\, строение 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230905T154000
+DTEND:20230905T171000
+UID:0fc024e28696b7be078f300250deee0a-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Иностранный язык
+LOCATION:Киб1_2/504/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Иностранный язык\nБелогаш М.А. \n3 курс ФЭБ \nПовторная промежу
+ точная аттестация (экзамен) \n:  \n<> \nКиб1_2/504/ул. Кибальчича\, 1\, ст
+ роение 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230906T083000
+DTEND:20230906T100000
+UID:54968a7d007cea65a8256017c5cdf2a7-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Эконометрика
+LOCATION:Киб1_1/37/ул. Кибальчича\, 1\, строение 1
+DESCRIPTION:Эконометрика\nНевежин В.П. \nОБвЦЭ21-1\; ОБвЦЭ21-2 \nЛекции \n:
+   \n<> \nКиб1_1/37/ул. Кибальчича\, 1\, строение 1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230906T101000
+DTEND:20230906T114000
+UID:8dc7deb54761eb5d9bbb53d2653e86de-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Эконометрика
+LOCATION:Киб1_1/ауд.54(кк)/ул. Кибальчича\, 1\, строение 1
+DESCRIPTION:Эконометрика\nНевежин В.П. \nОБвЦЭ21-1 \nПрактические (семинарс
+ кие) занятия \n:  \n<> \nКиб1_1/ауд.54(кк)/ул. Кибальчича\, 1\, строение 1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230906T115000
+DTEND:20230906T132000
+UID:c7a9dc70722fd8403903c2072116a58c-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Корпоративные финансы
+LOCATION:Киб1_1/ауд.58(кк)/ул. Кибальчича\, 1\, строение 1
+DESCRIPTION:Корпоративные финансы\nБорисова О.В. \nОБвЦЭ21-1 \nПрактические
+  (семинарские) занятия \n:  \n<> \nКиб1_1/ауд.58(кк)/ул. Кибальчича\, 1\, 
+ строение 1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230906T140000
+DTEND:20230906T153000
+UID:426fad83fa7a3cb40eaa89fcf53cd3ea-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Иностранный язык в профессиональной сфере
+LOCATION:Киб1_2/1102/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Иностранный язык в профессиональной сфере\nСанакоева З.Г. \nОБв
+ ЦЭ21-1\; ОБвЦЭ21-2 \nПрактические (семинарские) занятия \n:  \n<> \nКиб1_2
+ /1102/ул. Кибальчича\, 1\, строение 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230906T140000
+DTEND:20230906T153000
+UID:ba96a76c6031b8825d92d3a7f4738ebd-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Иностранный язык в профессиональной сфере
+LOCATION:Киб1_2/1104/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Иностранный язык в профессиональной сфере\nБерберова Л.Б. \nОБв
+ ЦЭ21-1\; ОБвЦЭ21-2 \nПрактические (семинарские) занятия \n:  \n<> \nКиб1_2
+ /1104/ул. Кибальчича\, 1\, строение 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230906T140000
+DTEND:20230906T153000
+UID:1461ed1d86085903ec73752f5b686180-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Иностранный язык в профессиональной сфере
+LOCATION:Киб1_1/31/ул. Кибальчича\, 1\, строение 1
+DESCRIPTION:Иностранный язык в профессиональной сфере\nМухортова Е.А. \nОБв
+ ЦЭ21-1\; ОБвЦЭ21-2 \nПрактические (семинарские) занятия \n:  \n<> \nКиб1_1
+ /31/ул. Кибальчича\, 1\, строение 1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230907T154000
+DTEND:20230907T171000
+UID:c40de43120873f422a34517cee3d4795-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Финансовые рынки
+LOCATION:Киб1_2/501/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Финансовые рынки\nАрронет П.В. \nОБвЦЭ21-1 \nПрактические (семи
+ нарские) занятия \n:  \n<> \nКиб1_2/501/ул. Кибальчича\, 1\, строение 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230907T172000
+DTEND:20230907T185000
+UID:779c0d52583533f9312fd415bd31d229-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Основы военной подготовки
+LOCATION:Киб1_1/33_ОВП/ул. Кибальчича\, 1\, строение 1
+DESCRIPTION:Основы военной подготовки\nВакансия Д.8. \nОБвЦЭ21-1 \nПрактиче
+ ские (семинарские) занятия \n:  \n<> \nКиб1_1/33_ОВП/ул. Кибальчича\, 1\, 
+ строение 1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230908T083000
+DTEND:20230908T153000
+UID:9eeb71ddd4a340a0355bbb68d0a908fa-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Военная подготовка
+LOCATION:Кас15\,17/Зал военной подготовки/ул. Касаткина 15\, строение 1\; 1
+ 7\, строение 1
+DESCRIPTION:Военная подготовка\n!Вакансия  \nОБвЦЭ21-1\; ОБвЦЭ21-2 \nВоенна
+ я подготовка \n:  \n<> \nКас15\,17/Зал военной подготовки/ул. Касаткина 15
+ \, строение 1\; 17\, строение 1
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230908T101000
+DTEND:20230908T114000
+UID:ecfae439466f5e2cd29dda9208606449-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Иностранный язык в профессиональной сфере
+LOCATION:ЛП49/2/ауд.430 (ря)/Ленинградский проспект\, 49/2
+DESCRIPTION:Иностранный язык в профессиональной сфере\nМалюгина Н.М. \n3 ку
+ рс\, РКИ21-1\, "Иностранный язык в профессиональной сфере (русский язык)"\
+ , МАлюгина Н.М. \nПрактические (семинарские) занятия \n:  \n<> \nЛП49/2/ау
+ д.430 (ря)/Ленинградский проспект\, 49/2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230908T115000
+DTEND:20230908T132000
+UID:8c37d73b71dbfca8bf0c8756d0c69092-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Иностранный язык в профессиональной сфере
+LOCATION:ЛП49/2/ауд.430 (ря)/Ленинградский проспект\, 49/2
+DESCRIPTION:Иностранный язык в профессиональной сфере\nМалюгина Н.М. \n3 ку
+ рс\, РКИ21-1\, "Иностранный язык в профессиональной сфере (русский язык)"\
+ , МАлюгина Н.М. \nПрактические (семинарские) занятия \n:  \n<> \nЛП49/2/ау
+ д.430 (ря)/Ленинградский проспект\, 49/2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230908T154000
+DTEND:20230908T171000
+UID:b2f1834612f9929a43b2a5be53ce35e1-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Основы военной подготовки
+LOCATION:Киб1_2/1101/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Основы военной подготовки\nВакансия С.П. \nОБвЦЭ21-1\; ОБвЦЭ21-
+ 2 \nЛекции \n:  \n<> \nКиб1_2/1101/ул. Кибальчича\, 1\, строение 2
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20230908T172000
+DTEND:20230908T185000
+UID:322dd1959b564b79a6eb9fc8a5cdd1a8-group-111491@ruz.fa.ru
+X-MICROSOFT-CDO-BUSYSTATUS:FREE
+X-DEVEXPRESS-STATUS:FREE
+DTSTAMP:20230905T211321
+SUMMARY:Основы военной подготовки
+LOCATION:Киб1_2/1101/ул. Кибальчича\, 1\, строение 2
+DESCRIPTION:Основы военной подготовки\nВакансия С.П. \nОБвЦЭ21-1\; ОБвЦЭ21-
+ 2 \nЛекции \n:  \n<> \nКиб1_2/1101/ул. Кибальчича\, 1\, строение 2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "paths": {
+      "@db/*": ["db/*"],
+      "@parse/*": ["parse/*"],
+      "@shared/*": ["shared/*"],
+      "@api/*": ["api/*"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}
