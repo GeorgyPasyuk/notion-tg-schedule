@@ -10,8 +10,11 @@
       "@db/*": ["db/*"],
       "@parse/*": ["parse/*"],
       "@shared/*": ["shared/*"],
-      "@api/*": ["api/*"]
+      "@api/*": ["api/*"],
+      "@controllers/*": ["controllers/*"],
+      "@tg/*": ["tg/*"],
+      "@utils/*": ["utils/*"]
     }
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts", "global.d.ts"]
 }

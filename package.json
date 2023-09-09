@@ -4,12 +4,12 @@
   "description": "My webpack project",
   "main": "src/parse/getParsedData.ts",
   "scripts": {
-    "init-db": "node src/db/initDB.ts",
-    "start": "node index.js",
+    "init-db": "ts-node src/db/initDB.ts",
+    "parse-and-post": "ts-node -r tsconfig-paths/register src/api/api.ts",
+    "post": "ts-node -r tsconfig-paths/register src/db/postItems.ts",
+    "bot:dev": "nodemon -r tsconfig-paths/register ./src/tg/tgInit.ts",
     "build": "webpack --mode=production --node-env=production",
-    "build:dev": "webpack --mode=development",
-    "build:prod": "webpack --mode=production --node-env=production",
-    "watch": "webpack --watch"
+    "build:dev": "webpack --mode=development"
   },
   "type": "commonjs",
   "keywords": [],
@@ -17,20 +17,25 @@
   "license": "ISC",
   "dependencies": {
     "@notionhq/client": "^2.2.13",
-    "@types/ical": "^0.8.0",
     "axios": "^1.5.0",
     "dotenv": "^16.3.1",
     "ical.js": "^1.5.0",
     "moment": "^2.29.4",
     "node-schedule": "^2.1.1",
-    "prettier": "^3.0.3",
+    "node-telegram-bot-api": "^0.61.0",
     "ts-loader": "^9.4.4",
     "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^5.2.2",
     "webpack": "^5.88.2"
   },
   "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.7",
     "@webpack-cli/generators": "^3.0.7",
-    "webpack-cli": "^5.1.4"
+    "date-fns": "^2.30.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }

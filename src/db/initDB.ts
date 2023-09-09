@@ -1,6 +1,6 @@
-require("dotenv").config();
-
 import { notion } from "./Client";
+
+require("dotenv").config();
 
 const initDB = async () => {
   const pageId = process.env.PAGE_ID;
@@ -37,6 +37,9 @@ const initDB = async () => {
         rich_text: {},
       },
       Преподаватель: {
+        rich_text: {},
+      },
+      "Домашнее задание": {
         rich_text: {},
       },
       Тип: {

@@ -1,4 +1,4 @@
-import {getParsedData} from "../parse/getParsedData";
+import {getParsedData} from "@parse/getParsedData";
 
 require("dotenv").config();
 import {notion} from "./Client";
@@ -77,12 +77,11 @@ async function addToDatabase(databaseId: string, obj: any) {
   }
 }
 
-async function updateData() {
+export async function updateData() {
   const obj = await getParsedData();
   obj.forEach((item: object) => {
     addToDatabase(dataBaseId, item);
   });
 }
-
 
 updateData()

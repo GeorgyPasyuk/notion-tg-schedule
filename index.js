@@ -1,3 +1,3 @@
-const job = require("./src/api/api");
+const job = require("@api/api");
 
 job();
