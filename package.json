@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm run init-db && npm run fetchAndSave && npm run startJob",
     "bot": "ts-node -r tsconfig-paths/register ./src/tg/tgInit.ts",
-    "init-db": "ts-node src/db/initDB.ts",
+    "init-db": "ts-node -r tsconfig-paths/register src/db/initDB.ts",
     "fetchAndSave": "ts-node -r tsconfig-paths/register src/initDate.ts",
     "startJob": "ts-node -r tsconfig-paths/register index.ts",
     "post": "ts-node -r tsconfig-paths/register src/db/postItems.ts",
