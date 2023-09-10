@@ -13,10 +13,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: npm install
+
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '14'
+
+      - name: Load .env file
+        run: echo "NOTION_API_KEY=${{ secrets.NOTION_API_KEY }}" > .env && echo "DATABASE_ID=${{ secrets.DATABASE_ID }}" >> .env && echo "PAGE_ID=${{ secrets.PAGE_ID }}" >> .env && echo "TG_TOKEN=${{ secrets.TG_TOKEN }}" >> .env
 
       - name: Execute update-env.sh
         run: ./update-env.sh
