@@ -19,9 +19,9 @@ jobs:
           node-version: '14'
 
       - name: Load .env file
-        run: echo "$MY_ENV_CONTENT" > .env
+        run: echo "$ENV" > .env
         env:
-          MY_ENV_CONTENT: ${{ secrets.MY_ENV_SECRET }}
+          MY_ENV_CONTENT: ${{ secrets.ENV }}
 
       - name: Execute update-env.sh
         run: ./update-env.sh
