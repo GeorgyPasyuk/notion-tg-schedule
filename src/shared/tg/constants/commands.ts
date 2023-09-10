@@ -4,19 +4,15 @@ export const menuCommands: {command: string, description:string}[] = [
     description: "Запуск бота",
   },
   {
-    command: "day",
-    description: "Получить расписание на следующий день",
+    command: "today",
+    description: "Получить расписание на сегодня",
   },
   {
-    command: "week",
-    description: "Получить расписание на следующую неделю",
+    command: "tomorrow",
+    description: "Получить расписание на следующий день",
   },
   {
     command: "help",
     description: "Раздел помощи",
-  },
-  {
-    command: "menu",
-    description: "Кнопки меню",
   },
 ];

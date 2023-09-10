@@ -1,16 +1,14 @@
 import { notion } from "@db/Client";
-import { SortResponse } from "@utils/SortResponse";
 import {
-  DatabaseObjectResponse,
-  PageObjectResponse,
   QueryDatabaseResponse,
   UpdatePageResponse
 } from "@notionhq/client/build/src/api-endpoints";
+import { SortResponse } from "@utils/SortResponse";
 
 const sortResponse = new SortResponse()
 
 
-export class HomeWorkController{
+export class HomeWorkApi {
 
 
   public async writeHomework(homework: string, page:  QueryDatabaseResponse){
@@ -31,9 +29,7 @@ export class HomeWorkController{
       },
     }
 
-
     const response: UpdatePageResponse = await notion.pages.update(args);
-
     return response
   }
 

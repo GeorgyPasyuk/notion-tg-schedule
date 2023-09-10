@@ -1,0 +1,16 @@
+version: '3'
+services:
+  my-app:
+    build:
+      context: .
+    ports:
+      - "3000:3000"
+    environment:
+      NOTION_API_KEY: ${NOTION_API_KEY}
+      DATABASE_ID: ${DATABASE_ID}
+      PAGE_ID: ${PAGE_ID}
+      TG_TOKEN: ${TG_TOKEN}
+
+
+
+

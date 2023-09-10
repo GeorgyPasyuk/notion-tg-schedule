@@ -4,7 +4,7 @@ export const startMarkup = {
   reply_markup: {
     inline_keyboard: [
       [{ text: "Расписание", callback_data: "schedule" }],
-      [{ text: "Домашнее задание", callback_data: "homework" }],
+      [{ text: "Домашнее задание", callback_data: "write-homework" }],
     ],
   },
 };
@@ -12,10 +12,9 @@ export const startMarkup = {
 export const scheduleMarkup = {
   reply_markup: {
     inline_keyboard: [
-      [{ text: "Сегодня", callback_data: "today" }],
-      [{ text: "Завтра", callback_data: "next-day" }],
-      [{ text: "На следующую неделю", callback_data: "next-week" }],
+      [{ text: "Сегодня", callback_data: "today" }, { text: "Завтра", callback_data: "next-day" }],
       [{ text: "Предмет", callback_data: "subject" }],
+      [{ text: "Назад", callback_data: "start" }],
     ],
   },
 };
@@ -26,7 +25,7 @@ export const byDateMarkup = {
       [{ text: "Выбрать другую дату", callback_data: "another-date" }],
       [{ text: "Выбрать другой предмет", callback_data: "subject" }],
       [{ text: "Записать домашнее задание", callback_data: "write-homework-by-subject" }],
-      [{ text: "Назад", callback_data: "back" }],
+      [{ text: "Назад", callback_data: "schedule" }],
     ],
   },
 };
@@ -57,9 +56,9 @@ export const subjectsMarkup = {
   },
 };
 
-export const createDatesMarkup = (dates: any) => {
+export const createDatesMarkup = (dates: Date[]) => {
   const dateButtons = dates.map(
-    (date: { toLocaleDateString: (arg0: string) => any }) => ({
+    (date: { toLocaleDateString: (arg0: string) => string }) => ({
       text: date.toLocaleDateString("ru-RU"),
       callback_data: `selected-date-${date.toLocaleDateString("ru-RU")}`,
     }),

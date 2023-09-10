@@ -1,6 +1,8 @@
+import dotenv from 'dotenv'
+
 import { notion } from "./Client";
 
-require("dotenv").config();
+dotenv.config()
 
 const initDB = async () => {
   const pageId = process.env.PAGE_ID;
@@ -52,11 +54,12 @@ const initDB = async () => {
     },
   });
 
-  // const url = dataBase.url
-  // const id = url.substring(url.lastIndexOf("/") + 1);
-  // if you want to get access to id, be careful it is a weak spot
 
-  console.log(dataBase);
+  //@ts-ignore
+  const url = dataBase.url
+  const id = url.substring(url.lastIndexOf("/") + 1);
+
+  console.log(id);
 };
 
 initDB();

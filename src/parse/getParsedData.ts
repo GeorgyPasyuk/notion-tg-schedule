@@ -1,5 +1,6 @@
-import { parseICalData } from "./icalPars";
 import * as fs from "fs/promises";
+
+import { parseICalData } from "./icalPars";
 
 const sharedFilePath = "src/shared";
 

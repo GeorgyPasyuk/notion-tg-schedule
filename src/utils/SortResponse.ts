@@ -1,10 +1,11 @@
 import {
   DatabaseObjectResponse,
   PageObjectResponse,
-  QueryDatabaseResponse, UpdatePageResponse
+  QueryDatabaseResponse,
+  UpdatePageResponse,
 } from "@notionhq/client/build/src/api-endpoints";
-import { formatMessagesDate } from "@utils/formatMessagesDate";
 import { extractTimeInMinutes } from "@utils/extractTimeInMinutes";
+import { formatMessagesDate } from "@utils/formatMessagesDate";
 
 export class SortResponse {
   private extractPageItem(properties: any) {
@@ -53,11 +54,11 @@ export class SortResponse {
 
   public sortPages(pages: QueryDatabaseResponse) {
     const pageProperties = pages.results.map(
-      (page: DatabaseObjectResponse) => page.properties
+      (page: DatabaseObjectResponse) => page.properties,
     );
 
     const resultArray = pageProperties.map((properties) =>
-      this.extractPageItem(properties)
+      this.extractPageItem(properties),
     );
 
     resultArray.sort((a, b) => {
@@ -72,8 +73,7 @@ export class SortResponse {
   }
 
   public sortPage(page: PageObjectResponse | UpdatePageResponse) {
-
-    if ('properties' in page) {
+    if ("properties" in page) {
       const properties = page.properties;
       const item = this.extractPageItem(properties);
 
@@ -84,7 +84,6 @@ export class SortResponse {
       };
     }
 
-    return null; // или возврат другого значения по вашему выбору
+    return null;
   }
-
 }

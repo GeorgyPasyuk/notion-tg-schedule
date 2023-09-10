@@ -1,6 +1,7 @@
 import {getParsedData} from "@parse/getParsedData";
+import dotenv from 'dotenv'
 
-require("dotenv").config();
+dotenv.config()
 import {notion} from "./Client";
 const dataBaseId = process.env.DATABASE_ID;
 

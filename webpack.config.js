@@ -1,7 +1,4 @@
-// Generated using webpack-cli https://github.com/webpack/webpack-cli
-
-const path = require("path");
-
+import path from "path";
 
 const isProduction = process.env.NODE_ENV === "production";
 
@@ -30,13 +27,13 @@ const config = {
   resolve: {
     extensions: [".tsx", ".ts", ".jsx", ".js"],
     alias: {
-      '@db': path.resolve(__dirname, 'src/db'),
-      '@parse': path.resolve(__dirname, 'src/parse'),
-      '@shared': path.resolve(__dirname, 'src/parse'),
-      '@api': path.resolve(__dirname, 'src/api'),
-      "@controllers": path.resolve(__dirname, 'src/controllers'),
-      "@tg": path.resolve(__dirname, 'src/tg'),
-      "@utils": path.resolve(__dirname, 'src/utils'),
+      "@db": path.resolve(__dirname, "src/db"),
+      "@parse": path.resolve(__dirname, "src/parse"),
+      "@shared": path.resolve(__dirname, "src/parse"),
+      "@api": path.resolve(__dirname, "src/api"),
+      "@controllers": path.resolve(__dirname, "src/api"),
+      "@tg": path.resolve(__dirname, "src/tg"),
+      "@utils": path.resolve(__dirname, "src/utils"),
     },
   },
 };

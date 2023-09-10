@@ -1,14 +1,12 @@
-import process from "process";
 import { notion } from "@db/Client";
-import { QueryDatabaseResponse } from "@notionhq/client/build/src/api-endpoints";
+import { QueryDatabaseParameters, QueryDatabaseResponse } from "@notionhq/client/build/src/api-endpoints";
 import { GetDateToISO } from "@utils/GetDateToISO";
-import { SortResponse } from "@utils/SortResponse";
+import process from "process";
 
 const getDay = new GetDateToISO();
-const sortResponse = new SortResponse();
 const getDayToISO = new GetDateToISO();
 
-export class ByDayController {
+export class ByDayApi {
   protected dataBaseId: string = process.env.DATABASE_ID;
   protected tomorrow: string;
   protected today: string;
@@ -46,10 +44,10 @@ export class ByDayController {
     return nextDayResponse;
   }
 
-  public async getSubjectByDate(date: string, name: string) {
+  public async getByDateAndName(date: string, name: string) {
     const formattedDate = getDayToISO.getDate(date);
 
-    let filterOptions: any = {
+    let filterOptions: QueryDatabaseParameters = {
       database_id: this.dataBaseId,
       filter: {
         and: [
@@ -98,28 +96,4 @@ export class ByDayController {
 
     return byDateResponse;
   }
-
-  /*
-  public async getNextWeek() {
-    const today = new Date();
-    const nextWeek = new Date();
-    nextWeek.setDate(today.getDate() + 7);
-
-    const nextWeekStartDateString = today.toISOString().split("T")[0];
-    const nextWeekEndDateString = nextWeek.toISOString().split("T")[0];
-
-    const pages: QueryDatabaseResponse = await notion.databases.query({
-      database_id: this.dataBaseId,
-      filter: {
-        property: "date",
-        date: {
-          on_or_after: nextWeekStartDateString,
-          before: nextWeekEndDateString,
-        },
-      },
-    });
-
-    return formatData(pages);
-  }
-*/
 }

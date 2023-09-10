@@ -1,6 +1,8 @@
+import dotenv from 'dotenv'
+
 import { notion } from "./Client";
 
-require("dotenv").config();
+dotenv.config()
 
 export const retrieveDb = async ()=> {
   const database_id = process.env.DATABASE_ID;

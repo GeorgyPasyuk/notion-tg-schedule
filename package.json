@@ -1,15 +1,17 @@
 {
-  "name": "my-webpack-project",
+  "name": "notion-tg-bot",
   "version": "1.0.0",
   "description": "My webpack project",
   "main": "src/parse/getParsedData.ts",
   "scripts": {
+    "start": "npm run init-db && npm run fetchAndSave && npm run startJob",
+    "bot": "ts-node -r tsconfig-paths/register ./src/tg/tgInit.ts",
     "init-db": "ts-node src/db/initDB.ts",
-    "parse-and-post": "ts-node -r tsconfig-paths/register src/api/api.ts",
+    "fetchAndSave": "ts-node -r tsconfig-paths/register src/initDate.ts",
+    "startJob": "ts-node -r tsconfig-paths/register index.ts",
     "post": "ts-node -r tsconfig-paths/register src/db/postItems.ts",
     "bot:dev": "nodemon -r tsconfig-paths/register ./src/tg/tgInit.ts",
-    "build": "webpack --mode=production --node-env=production",
-    "build:dev": "webpack --mode=development"
+    "lint": "eslint . --fix"
   },
   "type": "commonjs",
   "keywords": [],
@@ -30,9 +32,15 @@
     "webpack": "^5.88.2"
   },
   "devDependencies": {
+    "@types/node-schedule": "^2.1.0",
     "@types/node-telegram-bot-api": "^0.61.7",
+    "@typescript-eslint/eslint-plugin": "^6.6.0",
+    "@typescript-eslint/parser": "^6.6.0",
     "@webpack-cli/generators": "^3.0.7",
     "date-fns": "^2.30.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
     "nodemon": "^3.0.1",
     "prettier": "^3.0.3",
     "webpack-cli": "^5.1.4",

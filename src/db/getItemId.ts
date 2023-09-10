@@ -8,7 +8,6 @@ export const writeIds = async (): Promise<{}> => {
   for (const key in data.properties) {
     object[key] = data.properties[key].id;
   }
-  console.log(data)
   return object;
 };
 
