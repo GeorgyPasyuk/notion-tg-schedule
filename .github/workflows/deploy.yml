@@ -18,10 +18,8 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Load .env file
-        run: echo "$ENV" > .env
-        env:
-          MY_ENV_CONTENT: ${{ secrets.ENV }}
-
       - name: Execute update-env.sh
         run: ./update-env.sh
+
+      - name: Deploy with Docker Compose
+        run: docker-compose up -d
