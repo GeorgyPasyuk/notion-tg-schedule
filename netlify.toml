@@ -1,0 +1,5 @@
+[build]
+  functions = "netlify-functions"
+
+[build.environment]
+  MY_ENV_CONTENT = "NOTION_API_KEY=${NOTION_API_KEY}\nDATABASE_ID=${DATABASE_ID}\nPAGE_ID=${PAGE_ID}\nTG_TOKEN=${TG_TOKEN}"

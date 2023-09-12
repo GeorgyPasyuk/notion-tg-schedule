@@ -8,6 +8,9 @@ RUN npm install
 
 COPY . .
 
-RUN echo "DATABASE_ID=\$(npm run init-db)" >> .env
+COPY update-env.sh ./update-env.sh
+RUN chmod +x ./update-env.sh
+RUN ./update-env.sh
+
 
 CMD ["sh", "-c", "npm run start & npm run bot"]
