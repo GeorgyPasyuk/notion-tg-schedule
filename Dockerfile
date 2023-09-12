@@ -8,9 +8,6 @@ RUN npm install
 
 COPY . .
 
-COPY update-env.sh ./update-env.sh
-RUN chmod +x ./update-env.sh
-RUN ./update-env.sh
-
+RUN npm run init-db
 
 CMD ["sh", "-c", "npm run start & npm run bot"]

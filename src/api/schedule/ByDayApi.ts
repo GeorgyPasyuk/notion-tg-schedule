@@ -1,13 +1,16 @@
 import { notion } from "@db/Client";
 import { QueryDatabaseParameters, QueryDatabaseResponse } from "@notionhq/client/build/src/api-endpoints";
 import { GetDateToISO } from "@utils/GetDateToISO";
-import process from "process";
+import fs from "fs";
+import path from "path";
 
 const getDay = new GetDateToISO();
 const getDayToISO = new GetDateToISO();
+const filePath = `src/shared/DatabaseID.txt`
+
 
 export class ByDayApi {
-  protected dataBaseId: string = process.env.DATABASE_ID;
+  protected dataBaseId: string = fs.readFileSync(filePath, 'utf8')
   protected tomorrow: string;
   protected today: string;
 

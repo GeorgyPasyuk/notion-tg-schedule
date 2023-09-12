@@ -1,6 +1,10 @@
 import dotenv from 'dotenv'
 
 import { notion } from "./Client";
+import fs from "fs";
+
+const sharedFilePath = "src/shared";
+
 
 dotenv.config()
 
@@ -59,7 +63,9 @@ const initDB = async () => {
   const url = dataBase.url
   const id = url.substring(url.lastIndexOf("/") + 1);
 
-  console.log(id);
+  const filePath = `${sharedFilePath}/DatabaseID.txt`
+
+  fs.writeFileSync(filePath, id);
 };
 
 initDB();

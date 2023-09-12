@@ -4,12 +4,16 @@ import {
   QueryDatabaseResponse,
 } from '@notionhq/client/build/src/api-endpoints'
 import { SortResponse } from '@utils/SortResponse'
-import process from 'process'
+import fs from "fs";
+
 
 const sortResponse = new SortResponse()
+const filePath = `src/shared/DatabaseID.txt`
+
+
 
 export class SubjectsApi {
-  protected dataBaseId: string = process.env.DATABASE_ID
+  protected dataBaseId: string = fs.readFileSync(filePath, 'utf8')
 
   public async getSubjectDates(name: string): Promise<Date[]> {
     let filterOptions: QueryDatabaseParameters = {
