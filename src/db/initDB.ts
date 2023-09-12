@@ -1,15 +1,12 @@
-import dotenv from 'dotenv'
-
 import { notion } from "./Client";
 import fs from "fs";
+import * as process from "process";
 
 const sharedFilePath = "src/shared";
 
 
-dotenv.config()
-
 const initDB = async () => {
-  const pageId = process.env.PAGE_ID;
+  const pageId = process.env.PAGE_ID
 
   const dataBase = await notion.databases.create({
     parent: {
