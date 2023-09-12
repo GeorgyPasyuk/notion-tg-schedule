@@ -3,9 +3,7 @@ import { connectCallbackQueries } from "@tg/callbackQuery/schedule";
 import TelegramBot from "node-telegram-bot-api";
 
 import { connectCommands } from "./botCommands";
-import * as process from "process";
-
-const token = process.env.TG_TOKEN
+const { TG_TOKEN: token } = process.env;
 
 export const bot = new TelegramBot(token, { polling: true });
 
