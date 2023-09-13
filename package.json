@@ -4,7 +4,7 @@
   "description": "My webpack project",
   "main": "src/parse/getParsedData.ts",
   "scripts": {
-    "start": "npm run init-db && npm run fetchAndSave && npm run startJob",
+    "start": "npm run fetchAndSave && npm run startJob",
     "bot": "ts-node -r tsconfig-paths/register ./src/tg/tgInit.ts",
     "init-db": "ts-node -r tsconfig-paths/register src/db/initDB.ts",
     "fetchAndSave": "ts-node -r tsconfig-paths/register src/initDate.ts",
