@@ -8,6 +8,4 @@ RUN npm install
 
 COPY . .
 
-RUN npm run init-db
-
 CMD ["sh", "-c", "npm run start & npm run bot"]
